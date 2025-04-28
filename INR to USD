@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+   int a=10;
+   int INR;
+   INR=a*83;
+   printf("the INR is=%d",INR);
+   return 0;
+}
