@@ -1,5 +1,25 @@
 #include<stdio.h>
 int main()
 {
-   int a[5]={10,40,20,30,50}
-   int max
+   int a[5]={10,40,20,30,50};
+   int i;
+   int max=a[0];
+   int min=a[1];
+   for(i=1;i<=5;i++)
+   {
+     if (max<a[i])
+      {
+        max=a[i];
+      }
+     if (min>a[i])
+      {
+         min=a[i];
+      }
+    }
+    printf("max=%d and min=%d",max,min)
+    return 0;
+ }
+_____________________________________
+
+output:
+max=50 and min=10
